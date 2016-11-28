@@ -1,0 +1,9 @@
+After installation of node.js:
+npm install -g ionic@latest cordova typescript || installs latest of ionic then cordova and typescript
+
+Create the app
+ionic start af2-lists blank --v2
+-|ionic start creates the app.
+-|af2-lists is the name we gave it.
+-|blank tells the Ionic CLI you want to start with the blank template.
+-|--v2 tells the Ionic CLI you want to create an Ionic 2 project instead of an Ionic 1 project.
