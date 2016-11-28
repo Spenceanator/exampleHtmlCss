@@ -1,0 +1,37 @@
+/*This script is already called in the html file
+<link css> in the head elemeent*/
+
+/*To style an HTML element using CSS, you must first select that element in the CSS file
+To style the<p> element the syntax to select it using css is: 
+p { 
+    property: xx;
+ }
+ */
+/* * { This is a universal selector
+    font-family: Georgia, 'Times New Roman', Times, serif;/*Changes the font family 
+}
+*/
+
+h1, h2{/*Here I'm changing all the colors for h1, h2, p*/
+    color: lightgoldenrodyellow;
+    background-color: rgb(24,104,24); /*Use rgb() to select any color I want for the background or wahtever else*/
+}
+
+h3{
+    color:#aabbcc; /* Can also use hexidecimal to change color*/
+    background-color: #abc;/*Just an abreviation of above*/
+}
+
+h4{
+    color: hsl(182, 20%, 50%);/*Hue, saturation, lightness Hue is color on the color wheel saturation is gray lightness 50 lightness is normal 0 is black 100 is white*/
+}
+
+h5{
+    color: rgb(2,23,140);/*Just in case a users browser is too old to use an alpha or hsl*/
+    color: rgba(2, 23, 140, 0.6);/* Uses opacity with alpha values*/
+} /*The latter of mutliple declorations take priority*/
+
+p{
+    font-size: 24px;/*This changes the pixel size of p*/
+    font-family: "Bungee InLine", cursive;
+}
